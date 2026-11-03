@@ -14,7 +14,6 @@ before the payout it predicted was announced.
 | --- | --- |
 | `manifests/YYYY/YYYY-MM-DD.txt` | One line per forecast made that day: the forecast id and the SHA-256 of its stored record |
 | `roots.csv` | One row per sealed day: the date, the number of forecasts and the day's root hash (the SHA-256 of that day's manifest) |
-
 | `outcomes/YYYY/YYYY-MM-DD.txt` | One line per forecast settled or voided that day: id, `resolved` or `void`, SHA-256 of the outcome record, SHA-256 of the forecast record |
 | `outcome-roots.csv` | One row per day: date, settled, voided and the day's outcome root |
 | `records/YYYY/<id>.json` | The forecast record, byte for byte, published once it has settled |
