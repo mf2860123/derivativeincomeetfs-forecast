@@ -60,7 +60,6 @@ monthly to weekly) before the next payout. Misses are never removed.
 
 - The commit time is GitHub's own record of when each seal was pushed.
 - An independent copy of every public push is kept by [GH Archive](https://www.gharchive.org/).
-- The day's root hash is also posted on X ([@highdividendetf](https://x.com/highdividendetf)).
 
 Changing any forecast after the fact would change its hash, which would change
 the manifest's hash, which would no longer match the root that was already
