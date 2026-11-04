@@ -1,6 +1,6 @@
 # Scorecard
 
-Updated 2026-11-04 (New York). Every number below comes from records published in `records/`, each sealed by its hash before the answer was known.
+Updated 2026-11-04 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
 **5** forecasts settled · **5** scored · **0** void (the answer was already public when it was made, so it does not count) · **42** still open
 
@@ -8,26 +8,22 @@ Updated 2026-11-04 (New York). Every number below comes from records published i
 
 Each forecast gives an 80% range for a fund's next payout. If the ranges are honest, about 80% of payouts land inside them.
 
-| | Forecasts | Inside the range | Average error | Naive baseline error | Error vs baseline | Average % error |
-| --- | --- | --- | --- | --- | --- | --- |
-| All time | 5 | 80% | $0.0189 | $0.0189 | the same | 15% |
-| Last 30 days | 5 | 80% | $0.0189 | $0.0189 | the same | 15% |
-
-The naive baseline assumes the next payout equals the last one.
-
-| Issuer | Forecasts | Inside the range | Error vs baseline |
+| | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Roundhill | 3 | 67% | the same |
-| Global X | 2 | 100% | the same |
+| All time | 5 | 80% | 15% |
+| Last 30 days | 5 | 80% | 15% |
+
+| Issuer | Forecasts | Inside the range | Average error |
+| --- | --- | --- | --- |
+| Roundhill | 3 | 67% | 20% |
+| Global X | 2 | 100% | 8% |
 
 ## Latest misses
 
-| Settled | Fund | Forecast range | Actual | Record |
-| --- | --- | --- | --- | --- |
-| 2026-11-04 | RDTE | $0.0483–$0.1197 | $0.123 above | published after tonight's seal |
+| Settled | Fund | Forecast range | Actual |
+| --- | --- | --- | --- |
+| 2026-11-04 | RDTE | $0.0483–$0.1197 | $0.123 above |
 
-A forecast's record is published once the day it settled has been sealed (after midnight New York time); until then its row says so.
+## Check it yourself
 
-## Check any number yourself
-
-Every row above is a record in `records/`. Hash a record (`shasum -a 256 records/2026/<id>.json`) and find that hash in the manifest of the day the forecast was made (`manifests/`). That manifest was committed here before the payout was announced. See [README.md](README.md).
+Each forecast's SHA-256 is in the manifest of the day it was made (`manifests/`), committed here that day, before the payout was announced; its outcome is sealed the same way (`outcomes/`). Full records go to subscribers. To check any forecast, ask for its record, hash it (`shasum -a 256 <id>.json`) and find the hash in that day's manifest. See [README.md](README.md).
