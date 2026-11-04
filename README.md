@@ -15,8 +15,8 @@ The manifest is committed here the same day.
        shasum -a 256 manifests/2026/2026-10-29.txt
 
 3. Each line of a manifest is a forecast id and the SHA-256 of that forecast's
-   stored record. Once a forecast has settled and its record is published,
-   hash the record: it must match its line.
+   stored record. Full records go to subscribers; anyone checking a specific
+   claim can ask for the record, hash it, and it must match its line.
 
 The time of each commit is GitHub's own record of when the seal was pushed.
 An independent copy of every push event is kept by GH Archive (gharchive.org).
