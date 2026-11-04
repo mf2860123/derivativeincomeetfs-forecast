@@ -24,10 +24,10 @@ The naive baseline assumes the next payout equals the last one.
 
 | Settled | Fund | Forecast range | Actual | Record |
 | --- | --- | --- | --- | --- |
-| 2026-11-04 | RDTE | $0.0483–$0.1197 | $0.123 above | [forecast](records/2026/2026-11-03-dist-RDTE-c05bb9.json) · [result](records/2026/2026-11-03-dist-RDTE-c05bb9.result.json) |
+| 2026-11-04 | RDTE | $0.0483–$0.1197 | $0.123 above | published after tonight's seal |
 
-Records appear here after the day's outcome seal, so the newest links can take a day to work.
+A forecast's record is published once the day it settled has been sealed (after midnight New York time); until then its row says so.
 
 ## Check any number yourself
 
-Every row above is a record in `records/`. Hash a record (`shasum -a 256 records/2026/<id>.json`) and find that hash in the manifest of the day the forecast was made (`manifests/`). That manifest was committed here before the payout was announced. See [README.md](README.md) and [OUTCOMES.md](OUTCOMES.md).
+Every row above is a record in `records/`. Hash a record (`shasum -a 256 records/2026/<id>.json`) and find that hash in the manifest of the day the forecast was made (`manifests/`). That manifest was committed here before the payout was announced. See [README.md](README.md).
