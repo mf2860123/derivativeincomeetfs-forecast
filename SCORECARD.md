@@ -2,7 +2,7 @@
 
 Updated 2026-11-05 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**5** forecasts settled · **5** scored · **0** void (the answer was already public when it was made, so it does not count) · **42** still open
+**6** forecasts settled · **5** scored · **1** void (the answer was already public when it was made, so it does not count) · **41** still open
 
 ## Payout ranges
 
