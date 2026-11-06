@@ -2,7 +2,7 @@
 
 Updated 2026-11-06 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**14** forecasts settled · **12** scored · **2** void (the answer was already public when it was made, so it does not count) · **35** still open
+**15** forecasts settled · **13** scored · **2** void (the answer was already public when it was made, so it does not count) · **34** still open
 
 ## Payout ranges
 
@@ -10,12 +10,12 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 11 | 73% | 10% |
-| Last 30 days | 11 | 73% | 10% |
+| All time | 12 | 75% | 12% |
+| Last 30 days | 12 | 75% | 12% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Roundhill | 5 | 80% | 16% |
+| Roundhill | 6 | 83% | 17% |
 | Defiance | 3 | 33% | 4% |
 | Global X | 2 | 100% | 8% |
 | YieldMax | 1 | 100% | 7% |
