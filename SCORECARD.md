@@ -2,7 +2,7 @@
 
 Updated 2026-11-06 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**12** forecasts settled · **11** scored · **1** void (the answer was already public when it was made, so it does not count) · **37** still open
+**12** forecasts settled · **10** scored · **2** void (the answer was already public when it was made, so it does not count) · **37** still open
 
 ## Payout ranges
 
@@ -10,13 +10,13 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 10 | 60% | 10% |
-| Last 30 days | 10 | 60% | 10% |
+| All time | 9 | 67% | 11% |
+| Last 30 days | 9 | 67% | 11% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Defiance | 4 | 25% | 4% |
 | Roundhill | 3 | 67% | 20% |
+| Defiance | 3 | 33% | 4% |
 | Global X | 2 | 100% | 8% |
 | YieldMax | 1 | 100% | 7% |
 
@@ -35,7 +35,6 @@ Each gives the probability that a fund's next payout is cut by more than 20%. Sc
 | --- | --- | --- | --- |
 | 2026-11-05 | WDTE | $0.1595–$0.1646 | $0.1586 below |
 | 2026-11-05 | QQQY | $0.1188–$0.1288 | $0.1172 below |
-| 2026-11-05 | JEPY | $0.1595–$0.1646 | $0.1586 below |
 | 2026-11-04 | RDTE | $0.0483–$0.1197 | $0.123 above |
 
 ## Check it yourself
