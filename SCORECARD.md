@@ -2,7 +2,7 @@
 
 Updated 2026-11-09 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**20** forecasts settled · **18** scored · **2** void (the answer was already public when it was made, so it does not count) · **29** still open
+**22** forecasts settled · **20** scored · **2** void (the answer was already public when it was made, so it does not count) · **27** still open
 
 ## Payout ranges
 
@@ -10,14 +10,14 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 15 | 73% | 13% |
-| Last 30 days | 15 | 73% | 13% |
+| All time | 16 | 75% | 13% |
+| Last 30 days | 16 | 75% | 13% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | Roundhill | 7 | 71% | 23% |
+| YieldMax | 4 | 100% | 4% |
 | Defiance | 3 | 33% | 4% |
-| YieldMax | 3 | 100% | 5% |
 | Global X | 2 | 100% | 8% |
 
 ## Cut warnings
@@ -26,8 +26,8 @@ Each gives the probability that a fund's next payout is cut by more than 20%. Sc
 
 | | Forecasts | Brier | vs the historical cut rate | Warned (≥12%) | Of those, cut | Cut rate overall |
 | --- | --- | --- | --- | --- | --- | --- |
-| All time | 3 | 0.007 | 50% better | 1 | 0% | 0% |
-| Last 30 days | 3 | 0.007 | 50% better | 1 | 0% | 0% |
+| All time | 4 | 0.006 | 57% better | 1 | 0% | 0% |
+| Last 30 days | 4 | 0.006 | 57% better | 1 | 0% | 0% |
 
 ## Latest misses
 
