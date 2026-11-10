@@ -1,6 +1,6 @@
 # Scorecard
 
-Updated 2026-11-09 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
+Updated 2026-11-10 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
 **22** forecasts settled · **20** scored · **2** void (the answer was already public when it was made, so it does not count) · **27** still open
 
