@@ -2,7 +2,7 @@
 
 Updated 2026-11-10 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**33** forecasts settled · **31** scored · **2** void (the answer was already public when it was made, so it does not count) · **22** still open
+**34** forecasts settled · **32** scored · **2** void (the answer was already public when it was made, so it does not count) · **21** still open
 
 ## Payout ranges
 
@@ -29,8 +29,8 @@ Each gives the probability that a fund's next payout is cut by more than 20%. Sc
 
 | | Forecasts | Brier | vs the historical cut rate | Warned (≥12%) | Of those, cut | Cut rate overall |
 | --- | --- | --- | --- | --- | --- | --- |
-| All time | 4 | 0.006 | 57% better | 1 | 0% | 0% |
-| Last 30 days | 4 | 0.006 | 57% better | 1 | 0% | 0% |
+| All time | 5 | 0.005 | 61% better | 1 | 0% | 0% |
+| Last 30 days | 5 | 0.005 | 61% better | 1 | 0% | 0% |
 
 ## Latest misses
 
