@@ -2,7 +2,7 @@
 
 Updated 2026-11-10 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**28** forecasts settled · **26** scored · **2** void (the answer was already public when it was made, so it does not count) · **21** still open
+**32** forecasts settled · **30** scored · **2** void (the answer was already public when it was made, so it does not count) · **23** still open
 
 ## Payout ranges
 
@@ -10,17 +10,17 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 22 | 77% | 12% |
-| Last 30 days | 22 | 77% | 12% |
+| All time | 26 | 69% | 10% |
+| Last 30 days | 26 | 69% | 10% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | Roundhill | 8 | 75% | 20% |
+| NEOS | 6 | 33% | 2% |
 | YieldMax | 4 | 100% | 4% |
 | Defiance | 3 | 33% | 4% |
 | Global X | 2 | 100% | 8% |
 | REX | 2 | 100% | 26% |
-| NEOS | 2 | 50% | 1% |
 | Kurv | 1 | 100% | 0% |
 
 ## Cut warnings
@@ -36,6 +36,9 @@ Each gives the probability that a fund's next payout is cut by more than 20%. Sc
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-10 | TLTI | $0.2062–$0.22 | $0.2251 above |
+| 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
+| 2026-11-10 | TLTI | $0.2062–$0.22 | $0.2251 above |
 | 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
 | 2026-11-06 | UNHW | $0.2571–$0.5313 | $0.2342 below |
 | 2026-11-05 | WDTE | $0.1595–$0.1646 | $0.1586 below |
