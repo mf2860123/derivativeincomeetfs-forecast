@@ -2,7 +2,7 @@
 
 Updated 2026-11-11 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**35** forecasts settled · **33** scored · **2** void (the answer was already public when it was made, so it does not count) · **22** still open
+**31** forecasts settled · **30** scored · **1** void (the answer was already public when it was made, so it does not count) · **22** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,18 +10,22 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 28 | 71% | 10% |
-| Last 30 days | 28 | 71% | 10% |
+| All time | 25 | 76% | 11% |
+| Last 30 days | 25 | 76% | 11% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | Roundhill | 8 | 75% | 20% |
-| NEOS | 6 | 33% | 2% |
 | YieldMax | 5 | 100% | 4% |
+| NEOS | 3 | 33% | 2% |
 | Defiance | 3 | 33% | 4% |
 | REX | 3 | 100% | 19% |
 | Global X | 2 | 100% | 8% |
 | Kurv | 1 | 100% | 0% |
+
+| Model | Forecasts | Inside the range | Average error |
+| --- | --- | --- | --- |
+| range-v1 | 25 | 76% | 11% |
 
 ## Cut warnings
 
@@ -29,17 +33,17 @@ Each gives the probability that a fund's next payout is cut by more than 20%. Sc
 
 | | Forecasts | Brier | vs the historical cut rate | Warned (≥12%) | Of those, cut | Cut rate overall |
 | --- | --- | --- | --- | --- | --- | --- |
-| All time | 5 | 0.005 | 61% better | 1 | 0% | 0% |
-| Last 30 days | 5 | 0.005 | 61% better | 1 | 0% | 0% |
+| All time | 5 | 0.005 | too few to judge | 1 | 0% | 0% |
+| Last 30 days | 5 | 0.005 | too few to judge | 1 | 0% | 0% |
+
+Too few to judge yet: 5 warnings settled and 0 cuts among them. The comparison with the historical cut rate is shown once 30 have settled and at least one fund has been cut.
 
 ## Latest misses
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
-| 2026-11-10 | TLTI | $0.2062–$0.22 | $0.2251 above |
 | 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
 | 2026-11-10 | TLTI | $0.2062–$0.22 | $0.2251 above |
-| 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
 | 2026-11-06 | UNHW | $0.2571–$0.5313 | $0.2342 below |
 | 2026-11-05 | WDTE | $0.1595–$0.1646 | $0.1586 below |
 | 2026-11-05 | QQQY | $0.1188–$0.1288 | $0.1172 below |
