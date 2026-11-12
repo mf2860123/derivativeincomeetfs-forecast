@@ -2,7 +2,7 @@
 
 Updated 2026-11-12 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**31** forecasts settled · **30** scored · **1** void (the answer was already public when it was made, so it does not count) · **204** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**34** forecasts settled · **33** scored · **1** void (the answer was already public when it was made, so it does not count) · **228** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,13 +10,13 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 25 | 76% | 11% |
-| Last 30 days | 25 | 76% | 11% |
+| All time | 26 | 77% | 11% |
+| Last 30 days | 26 | 77% | 11% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | Roundhill | 8 | 75% | 20% |
-| YieldMax | 5 | 100% | 4% |
+| YieldMax | 6 | 100% | 4% |
 | NEOS | 3 | 33% | 2% |
 | Defiance | 3 | 33% | 4% |
 | REX | 3 | 100% | 19% |
@@ -26,6 +26,7 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | range-v1 | 25 | 76% | 11% |
+| range-v2 | 1 | 100% | 3% |
 
 ## Cut warnings
 
@@ -33,10 +34,10 @@ Each gives the probability that a fund's next payout is cut by more than 20%. Sc
 
 | | Forecasts | Brier | vs the historical cut rate | Warned (≥12%) | Of those, cut | Cut rate overall |
 | --- | --- | --- | --- | --- | --- | --- |
-| All time | 5 | 0.005 | too few to judge | 1 | 0% | 0% |
-| Last 30 days | 5 | 0.005 | too few to judge | 1 | 0% | 0% |
+| All time | 7 | 0.005 | too few to judge | 1 | 0% | 0% |
+| Last 30 days | 7 | 0.005 | too few to judge | 1 | 0% | 0% |
 
-Too few to judge yet: 5 warnings settled and 0 cuts among them. The comparison with the historical cut rate is shown once 30 have settled and at least one fund has been cut.
+Too few to judge yet: 7 warnings settled and 0 cuts among them. The comparison with the historical cut rate is shown once 30 have settled and at least one fund has been cut.
 
 ## Latest misses
 
