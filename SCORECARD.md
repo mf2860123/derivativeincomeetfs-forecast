@@ -1,8 +1,8 @@
 # Scorecard
 
-Updated 2026-11-12 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
+Updated 2026-11-13 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**55** forecasts settled · **36** scored · **19** void (the answer was already public when it was made, so it does not count) · **209** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**58** forecasts settled · **39** scored · **19** void (the answer was already public when it was made, so it does not count) · **209** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,8 +10,8 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 28 | 79% | 10% |
-| Last 30 days | 28 | 79% | 10% |
+| All time | 31 | 74% | 22% |
+| Last 30 days | 31 | 74% | 22% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
@@ -20,13 +20,16 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | NEOS | 3 | 33% | 2% |
 | Defiance | 3 | 33% | 4% |
 | REX | 3 | 100% | 19% |
+| Grayscale | 3 | 33% | 131% |
 | Global X | 2 | 100% | 8% |
 | Kurv | 1 | 100% | 0% |
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
+| range-prov-v1 | 2 | 50% | 168% |
 | range-v1 | 25 | 76% | 11% |
 | range-v2 | 3 | 100% | 6% |
+| range-v3 (current) | 1 | 0% | 59% |
 
 ## Cut warnings
 
@@ -43,6 +46,8 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-13 | BTCC | $0.1715–$0.248 | $0.14 below |
+| 2026-11-13 | BPI | $0.0961–$0.352 | $0.045 below |
 | 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
 | 2026-11-10 | TLTI | $0.2062–$0.22 | $0.2251 above |
 | 2026-11-06 | UNHW | $0.2571–$0.5313 | $0.2342 below |
