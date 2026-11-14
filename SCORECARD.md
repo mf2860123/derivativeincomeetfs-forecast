@@ -2,7 +2,7 @@
 
 Updated 2026-11-14 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**79** forecasts settled · **60** scored · **19** void (the answer was already public when it was made, so it does not count) · **221** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**83** forecasts settled · **64** scored · **19** void (the answer was already public when it was made, so it does not count) · **227** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,14 +10,14 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 52 | 73% | 28% |
-| Last 30 days | 52 | 73% | 28% |
+| All time | 56 | 73% | 29% |
+| Last 30 days | 56 | 73% | 29% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Roundhill | 25 | 68% | 36% |
+| Roundhill | 27 | 67% | 41% |
 | YieldMax | 8 | 100% | 5% |
-| GraniteShares | 4 | 100% | 3% |
+| GraniteShares | 6 | 100% | 2% |
 | NEOS | 3 | 33% | 2% |
 | Defiance | 3 | 33% | 4% |
 | REX | 3 | 100% | 19% |
@@ -27,10 +27,10 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| range-prov-v1 | 15 | 67% | 58% |
+| range-prov-v1 | 17 | 65% | 62% |
 | range-v1 | 25 | 76% | 11% |
 | range-v2 | 3 | 100% | 6% |
-| range-v3 (current) | 9 | 67% | 32% |
+| range-v3 (current) | 11 | 73% | 26% |
 
 ## Cut warnings
 
@@ -47,6 +47,7 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-14 | AVGW | $0.1802–$0.3659 | $0.125 below |
 | 2026-11-14 | METW | $0.092–$0.1683 | $0.1791 above |
 | 2026-11-14 | GOOW | $0.0563–$0.1176 | $0.3538 above |
 | 2026-11-14 | GLDW | $0.0789–$0.2006 | $0.2236 above |
@@ -56,7 +57,6 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-13 | BTCC | $0.1715–$0.248 | $0.14 below |
 | 2026-11-13 | BPI | $0.0961–$0.352 | $0.045 below |
 | 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
-| 2026-11-10 | TLTI | $0.2062–$0.22 | $0.2251 above |
 
 ## Check it yourself
 
