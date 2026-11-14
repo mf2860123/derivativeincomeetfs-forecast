@@ -2,7 +2,7 @@
 
 Updated 2026-11-13 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**58** forecasts settled · **39** scored · **19** void (the answer was already public when it was made, so it does not count) · **213** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**64** forecasts settled · **45** scored · **19** void (the answer was already public when it was made, so it does not count) · **207** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,13 +10,13 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 31 | 74% | 22% |
-| Last 30 days | 31 | 74% | 22% |
+| All time | 37 | 73% | 26% |
+| Last 30 days | 37 | 73% | 26% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
+| Roundhill | 14 | 71% | 31% |
 | YieldMax | 8 | 100% | 5% |
-| Roundhill | 8 | 75% | 20% |
 | NEOS | 3 | 33% | 2% |
 | Defiance | 3 | 33% | 4% |
 | REX | 3 | 100% | 19% |
@@ -26,10 +26,10 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| range-prov-v1 | 2 | 50% | 168% |
+| range-prov-v1 | 7 | 57% | 83% |
 | range-v1 | 25 | 76% | 11% |
 | range-v2 | 3 | 100% | 6% |
-| range-v3 (current) | 1 | 0% | 59% |
+| range-v3 (current) | 2 | 50% | 41% |
 
 ## Cut warnings
 
@@ -46,6 +46,8 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-14 | ARMW | $0.1787–$0.5175 | $0.1517 below |
+| 2026-11-14 | AMZW | $0.0836–$0.2464 | $0.3268 above |
 | 2026-11-13 | BTCC | $0.1715–$0.248 | $0.14 below |
 | 2026-11-13 | BPI | $0.0961–$0.352 | $0.045 below |
 | 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
