@@ -1,6 +1,6 @@
 # Forecast log: daily seals
 
-**Scorecard (updated 2026-11-14):** 68 payout forecasts settled, 74% inside their 80% range (an honest range should catch about 80%). Full results, misses included: [SCORECARD.md](SCORECARD.md)
+**Scorecard (updated 2026-11-14):** 72 payout forecasts settled, 74% inside their 80% range (an honest range should catch about 80%). Full results, misses included: [SCORECARD.md](SCORECARD.md)
 
 Every forecast is written once, before its answer exists, and never edited.
 After each New York trading day, that day's forecasts are sealed: each record's
