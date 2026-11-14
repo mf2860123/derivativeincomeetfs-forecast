@@ -2,7 +2,7 @@
 
 Updated 2026-11-13 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**70** forecasts settled · **51** scored · **19** void (the answer was already public when it was made, so it does not count) · **212** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**79** forecasts settled · **60** scored · **19** void (the answer was already public when it was made, so it does not count) · **221** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,13 +10,14 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 43 | 70% | 27% |
-| Last 30 days | 43 | 70% | 27% |
+| All time | 52 | 73% | 28% |
+| Last 30 days | 52 | 73% | 28% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Roundhill | 20 | 65% | 33% |
+| Roundhill | 25 | 68% | 36% |
 | YieldMax | 8 | 100% | 5% |
+| GraniteShares | 4 | 100% | 3% |
 | NEOS | 3 | 33% | 2% |
 | Defiance | 3 | 33% | 4% |
 | REX | 3 | 100% | 19% |
@@ -26,10 +27,10 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| range-prov-v1 | 8 | 50% | 82% |
+| range-prov-v1 | 15 | 67% | 58% |
 | range-v1 | 25 | 76% | 11% |
 | range-v2 | 3 | 100% | 6% |
-| range-v3 (current) | 7 | 57% | 33% |
+| range-v3 (current) | 9 | 67% | 32% |
 
 ## Cut warnings
 
@@ -46,6 +47,7 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-14 | METW | $0.092–$0.1683 | $0.1791 above |
 | 2026-11-14 | GOOW | $0.0563–$0.1176 | $0.3538 above |
 | 2026-11-14 | GLDW | $0.0789–$0.2006 | $0.2236 above |
 | 2026-11-14 | UBEW | $0.0868–$0.1922 | $0.2054 above |
@@ -55,7 +57,6 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-13 | BPI | $0.0961–$0.352 | $0.045 below |
 | 2026-11-10 | BNDI | $0.2123–$0.2194 | $0.2196 above |
 | 2026-11-10 | TLTI | $0.2062–$0.22 | $0.2251 above |
-| 2026-11-06 | UNHW | $0.2571–$0.5313 | $0.2342 below |
 
 ## Check it yourself
 
