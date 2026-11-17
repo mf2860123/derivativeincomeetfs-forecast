@@ -2,7 +2,7 @@
 
 Updated 2026-11-17 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**106** forecasts settled · **86** scored · **20** void (the answer was already public when it was made, so it does not count) · **222** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**109** forecasts settled · **89** scored · **20** void (the answer was already public when it was made, so it does not count) · **222** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,27 +10,27 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 78 | 76% | 25% |
-| Last 30 days | 78 | 76% | 25% |
+| All time | 81 | 75% | 24% |
+| Last 30 days | 81 | 75% | 24% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Roundhill | 33 | 67% | 42% |
+| Roundhill | 35 | 69% | 40% |
 | GraniteShares | 22 | 91% | 2% |
 | YieldMax | 8 | 100% | 5% |
+| REX | 4 | 75% | 16% |
 | NEOS | 3 | 33% | 2% |
 | Defiance | 3 | 33% | 4% |
-| REX | 3 | 100% | 19% |
 | Grayscale | 3 | 33% | 131% |
 | Global X | 2 | 100% | 8% |
 | Kurv | 1 | 100% | 0% |
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| range-prov-v1 | 21 | 62% | 64% |
+| range-prov-v1 | 22 | 59% | 62% |
 | range-v1 | 25 | 76% | 11% |
 | range-v2 | 3 | 100% | 6% |
-| range-v3 (current) | 29 | 83% | 11% |
+| range-v3 (current) | 31 | 84% | 11% |
 
 ## Cut warnings
 
@@ -47,6 +47,7 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-17 | ATCL | $0.2728–$0.2896 | $0.2673 below |
 | 2026-11-14 | COYY | $0.1357–$0.15 | $0.131 below |
 | 2026-11-14 | TSLW | $0.1016–$0.3322 | $0.0706 below |
 | 2026-11-14 | NFLW | $0.0213–$0.0852 | $0.1021 above |
@@ -56,7 +57,6 @@ Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-14 | GOOW | $0.0563–$0.1176 | $0.3538 above |
 | 2026-11-14 | GLDW | $0.0789–$0.2006 | $0.2236 above |
 | 2026-11-14 | UBEW | $0.0868–$0.1922 | $0.2054 above |
-| 2026-11-14 | ARMW | $0.1787–$0.5175 | $0.1517 below |
 
 ## Check it yourself
 
