@@ -2,7 +2,7 @@
 
 Updated 2026-11-17 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**111** forecasts settled · **91** scored · **20** void (the answer was already public when it was made, so it does not count) · **224** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**112** forecasts settled · **92** scored · **20** void (the answer was already public when it was made, so it does not count) · **223** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -38,10 +38,10 @@ Each gives the probability that a fund's next payout is cut by more than 20%. Sc
 
 | | Forecasts | Brier | vs the historical cut rate | Warned (≥12%) | Of those, cut | Cut rate overall |
 | --- | --- | --- | --- | --- | --- | --- |
-| All time | 8 | 0.005 | too few to judge | 1 | 0% | 0% |
-| Last 30 days | 8 | 0.005 | too few to judge | 1 | 0% | 0% |
+| All time | 9 | 0.004 | too few to judge | 1 | 0% | 0% |
+| Last 30 days | 9 | 0.004 | too few to judge | 1 | 0% | 0% |
 
-Too few to judge yet: 8 warnings settled and 0 cuts among them. The comparison with the historical cut rate is shown once 30 have settled and at least one fund has been cut.
+Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison with the historical cut rate is shown once 30 have settled and at least one fund has been cut.
 
 ## Latest misses
 
