@@ -2,7 +2,7 @@
 
 Updated 2026-11-17 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**123** forecasts settled · **103** scored · **20** void (the answer was already public when it was made, so it does not count) · **231** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**124** forecasts settled · **104** scored · **20** void (the answer was already public when it was made, so it does not count) · **231** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,8 +10,8 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 94 | 74% | 22% |
-| Last 30 days | 94 | 74% | 22% |
+| All time | 95 | 74% | 22% |
+| Last 30 days | 95 | 74% | 22% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
@@ -23,12 +23,12 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | Defiance | 3 | 33% | 4% |
 | Grayscale | 3 | 33% | 131% |
 | Global X | 2 | 100% | 8% |
-| Kurv | 1 | 100% | 0% |
+| Kurv | 2 | 50% | 8% |
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | range-prov-v1 | 33 | 64% | 44% |
-| range-v1 | 25 | 76% | 11% |
+| range-v1 | 26 | 73% | 11% |
 | range-v2 | 3 | 100% | 6% |
 | range-v3 (current) | 33 | 82% | 11% |
 
@@ -47,6 +47,7 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-17 | AAPY | $0.25–$0.25 | $0.3 above |
 | 2026-11-17 | YMAX | $0.0238–$0.0291 | $0.0386 above |
 | 2026-11-17 | NVIT | $0.1838–$0.2246 | $0.1774 below |
 | 2026-11-17 | MSST | $0.1141–$0.1395 | $0.1102 below |
@@ -56,7 +57,6 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-14 | TSLW | $0.1016–$0.3322 | $0.0706 below |
 | 2026-11-14 | NFLW | $0.0213–$0.0852 | $0.1021 above |
 | 2026-11-14 | BBYY | $0.0605–$0.0658 | $0.06 below |
-| 2026-11-14 | AVGW | $0.1802–$0.3659 | $0.125 below |
 
 ## Check it yourself
 
