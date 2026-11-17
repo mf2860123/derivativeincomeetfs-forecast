@@ -2,7 +2,7 @@
 
 Updated 2026-11-17 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**111** forecasts settled · **91** scored · **20** void (the answer was already public when it was made, so it does not count) · **222** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**111** forecasts settled · **91** scored · **20** void (the answer was already public when it was made, so it does not count) · **224** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
