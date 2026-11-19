@@ -2,7 +2,7 @@
 
 Updated 2026-11-19 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**139** forecasts settled · **119** scored · **20** void (the answer was already public when it was made, so it does not count) · **226** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**140** forecasts settled · **120** scored · **20** void (the answer was already public when it was made, so it does not count) · **226** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,8 +10,8 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 110 | 75% | 21% |
-| Last 30 days | 110 | 75% | 21% |
+| All time | 111 | 74% | 21% |
+| Last 30 days | 111 | 74% | 21% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
@@ -19,7 +19,7 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | GraniteShares | 24 | 92% | 2% |
 | YieldMax | 23 | 87% | 7% |
 | REX | 8 | 75% | 15% |
-| NEOS | 4 | 25% | 4% |
+| NEOS | 5 | 20% | 8% |
 | Defiance | 4 | 25% | 5% |
 | Kurv | 4 | 50% | 10% |
 | Grayscale | 3 | 33% | 131% |
@@ -28,7 +28,7 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | range-prov-v1 | 40 | 65% | 38% |
-| range-v1 | 28 | 71% | 11% |
+| range-v1 | 29 | 69% | 11% |
 | range-v2 | 4 | 100% | 6% |
 | range-v3 (current) | 38 | 84% | 11% |
 
@@ -47,6 +47,7 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-19 | BTCI | $0.5897–$0.7807 | $0.5481 below |
 | 2026-11-19 | QQQI | $0.6125–$0.6546 | $0.5838 below |
 | 2026-11-18 | QLDY | $0.1401–$0.1488 | $0.1331 below |
 | 2026-11-17 | KYLD | $0.097–$0.103 | $0.08 below |
@@ -56,7 +57,6 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-17 | MSST | $0.1141–$0.1395 | $0.1102 below |
 | 2026-11-17 | TSII | $0.0863–$0.1437 | $0.1579 above |
 | 2026-11-17 | ATCL | $0.2728–$0.2896 | $0.2673 below |
-| 2026-11-14 | COYY | $0.1357–$0.15 | $0.131 below |
 
 ## Check it yourself
 
