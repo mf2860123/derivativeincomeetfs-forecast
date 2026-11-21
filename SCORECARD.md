@@ -2,7 +2,7 @@
 
 Updated 2026-11-20 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**141** forecasts settled · **121** scored · **20** void (the answer was already public when it was made, so it does not count) · **227** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**142** forecasts settled · **122** scored · **20** void (the answer was already public when it was made, so it does not count) · **226** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,12 +10,12 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 112 | 74% | 21% |
-| Last 30 days | 112 | 74% | 21% |
+| All time | 113 | 73% | 21% |
+| Last 30 days | 113 | 73% | 21% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Roundhill | 38 | 71% | 38% |
+| Roundhill | 39 | 69% | 37% |
 | GraniteShares | 24 | 92% | 2% |
 | YieldMax | 23 | 87% | 7% |
 | REX | 8 | 75% | 15% |
@@ -30,7 +30,7 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | range-prov-v1 | 40 | 65% | 38% |
 | range-v1 | 30 | 70% | 11% |
 | range-v2 | 4 | 100% | 6% |
-| range-v3 (current) | 38 | 84% | 11% |
+| range-v3 (current) | 39 | 82% | 12% |
 
 ## Cut warnings
 
@@ -47,6 +47,7 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-20 | MAGY | $0.1248–$0.1868 | $0.1903 above |
 | 2026-11-19 | BTCI | $0.5897–$0.7807 | $0.5481 below |
 | 2026-11-19 | QQQI | $0.6125–$0.6546 | $0.5838 below |
 | 2026-11-18 | QLDY | $0.1401–$0.1488 | $0.1331 below |
@@ -56,7 +57,6 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-17 | NVIT | $0.1838–$0.2246 | $0.1774 below |
 | 2026-11-17 | MSST | $0.1141–$0.1395 | $0.1102 below |
 | 2026-11-17 | TSII | $0.0863–$0.1437 | $0.1579 above |
-| 2026-11-17 | ATCL | $0.2728–$0.2896 | $0.2673 below |
 
 ## Check it yourself
 
