@@ -2,7 +2,7 @@
 
 Updated 2026-11-23 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**147** forecasts settled · **127** scored · **20** void (the answer was already public when it was made, so it does not count) · **234** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**149** forecasts settled · **129** scored · **20** void (the answer was already public when it was made, so it does not count) · **232** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,12 +10,12 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 118 | 72% | 22% |
-| Last 30 days | 118 | 72% | 22% |
+| All time | 120 | 72% | 22% |
+| Last 30 days | 120 | 72% | 22% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| Roundhill | 44 | 66% | 38% |
+| Roundhill | 46 | 65% | 39% |
 | GraniteShares | 24 | 92% | 2% |
 | YieldMax | 23 | 87% | 7% |
 | REX | 8 | 75% | 15% |
@@ -30,7 +30,7 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | range-prov-v1 | 45 | 62% | 39% |
 | range-v1 | 30 | 70% | 11% |
 | range-v2 | 4 | 100% | 6% |
-| range-v3 (current) | 39 | 82% | 12% |
+| range-v3 (current) | 41 | 80% | 13% |
 
 ## Cut warnings
 
@@ -47,6 +47,7 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-23 | GDXW | $0.2342–$0.6627 | $0.2081 below |
 | 2026-11-22 | AVGW | $0.0802–$0.1698 | $0.3806 above |
 | 2026-11-22 | ARMW | $0.0724–$0.2311 | $0.4674 above |
 | 2026-11-22 | AMDW | $0.2412–$0.645 | $1.3165 above |
@@ -56,7 +57,6 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-18 | QLDY | $0.1401–$0.1488 | $0.1331 below |
 | 2026-11-17 | KYLD | $0.097–$0.103 | $0.08 below |
 | 2026-11-17 | AAPY | $0.25–$0.25 | $0.3 above |
-| 2026-11-17 | YMAX | $0.0238–$0.0291 | $0.0386 above |
 
 ## Check it yourself
 
