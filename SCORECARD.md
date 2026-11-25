@@ -2,7 +2,7 @@
 
 Updated 2026-11-25 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**157** forecasts settled · **137** scored · **20** void (the answer was already public when it was made, so it does not count) · **237** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**158** forecasts settled · **138** scored · **20** void (the answer was already public when it was made, so it does not count) · **239** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,13 +10,13 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 128 | 73% | 22% |
-| Last 30 days | 128 | 73% | 22% |
+| All time | 129 | 72% | 22% |
+| Last 30 days | 129 | 72% | 22% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | Roundhill | 50 | 66% | 39% |
-| GraniteShares | 28 | 93% | 2% |
+| GraniteShares | 29 | 90% | 4% |
 | YieldMax | 23 | 87% | 7% |
 | REX | 8 | 75% | 15% |
 | NEOS | 6 | 33% | 7% |
@@ -30,7 +30,7 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 | range-prov-v1 | 47 | 64% | 40% |
 | range-v1 | 30 | 70% | 11% |
 | range-v2 | 4 | 100% | 6% |
-| range-v3 (current) | 47 | 81% | 13% |
+| range-v3 (current) | 48 | 79% | 13% |
 
 ## Cut warnings
 
@@ -47,6 +47,7 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-25 | COYY | $0.1167–$0.1302 | $0.083 below |
 | 2026-11-24 | UNHW | $0.151–$0.3307 | $0.3815 above |
 | 2026-11-23 | GDXW | $0.2342–$0.6627 | $0.2081 below |
 | 2026-11-22 | AVGW | $0.0802–$0.1698 | $0.3806 above |
@@ -56,7 +57,6 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-19 | BTCI | $0.5897–$0.7807 | $0.5481 below |
 | 2026-11-19 | QQQI | $0.6125–$0.6546 | $0.5838 below |
 | 2026-11-18 | QLDY | $0.1401–$0.1488 | $0.1331 below |
-| 2026-11-17 | KYLD | $0.097–$0.103 | $0.08 below |
 
 ## Check it yourself
 
