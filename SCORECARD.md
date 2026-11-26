@@ -2,7 +2,7 @@
 
 Updated 2026-11-26 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**162** forecasts settled · **142** scored · **20** void (the answer was already public when it was made, so it does not count) · **237** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**164** forecasts settled · **144** scored · **20** void (the answer was already public when it was made, so it does not count) · **235** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,13 +10,13 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 133 | 71% | 22% |
-| Last 30 days | 133 | 71% | 22% |
+| All time | 135 | 71% | 21% |
+| Last 30 days | 135 | 71% | 21% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | Roundhill | 50 | 66% | 39% |
-| GraniteShares | 33 | 85% | 4% |
+| GraniteShares | 35 | 83% | 4% |
 | YieldMax | 23 | 87% | 7% |
 | REX | 8 | 75% | 15% |
 | NEOS | 6 | 33% | 7% |
@@ -27,10 +27,10 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| range-prov-v1 | 48 | 65% | 39% |
+| range-prov-v1 | 49 | 65% | 39% |
 | range-v1 | 30 | 70% | 11% |
 | range-v2 | 4 | 100% | 6% |
-| range-v3 (current) | 51 | 76% | 13% |
+| range-v3 (current) | 52 | 75% | 13% |
 
 ## Cut warnings
 
@@ -47,6 +47,7 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 
 | Settled | Fund | Forecast range | Actual |
 | --- | --- | --- | --- |
+| 2026-11-26 | SEMY | $0.1285–$0.1389 | $0.125 below |
 | 2026-11-26 | PLYY | $0.078–$0.0837 | $0.078 below |
 | 2026-11-25 | HMYY | $0.0688–$0.0736 | $0.068 below |
 | 2026-11-25 | COYY | $0.1167–$0.1302 | $0.083 below |
@@ -56,7 +57,6 @@ Too few to judge yet: 9 warnings settled and 0 cuts among them. The comparison w
 | 2026-11-22 | ARMW | $0.0724–$0.2311 | $0.4674 above |
 | 2026-11-22 | AMDW | $0.2412–$0.645 | $1.3165 above |
 | 2026-11-20 | MAGY | $0.1248–$0.1868 | $0.1903 above |
-| 2026-11-19 | BTCI | $0.5897–$0.7807 | $0.5481 below |
 
 ## Check it yourself
 
