@@ -2,7 +2,7 @@
 
 Updated 2026-11-26 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
-**164** forecasts settled · **144** scored · **20** void (the answer was already public when it was made, so it does not count) · **235** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
+**165** forecasts settled · **145** scored · **20** void (the answer was already public when it was made, so it does not count) · **234** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
 ## Payout ranges
 
@@ -10,13 +10,13 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| All time | 135 | 71% | 21% |
-| Last 30 days | 135 | 71% | 21% |
+| All time | 136 | 71% | 21% |
+| Last 30 days | 136 | 71% | 21% |
 
 | Issuer | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
 | Roundhill | 50 | 66% | 39% |
-| GraniteShares | 35 | 83% | 4% |
+| GraniteShares | 36 | 83% | 4% |
 | YieldMax | 23 | 87% | 7% |
 | REX | 8 | 75% | 15% |
 | NEOS | 6 | 33% | 7% |
@@ -27,7 +27,7 @@ Each forecast gives an 80% range for a fund's next payout. If the ranges are hon
 
 | Model | Forecasts | Inside the range | Average error |
 | --- | --- | --- | --- |
-| range-prov-v1 | 49 | 65% | 39% |
+| range-prov-v1 | 50 | 66% | 38% |
 | range-v1 | 30 | 70% | 11% |
 | range-v2 | 4 | 100% | 6% |
 | range-v3 (current) | 52 | 75% | 13% |
