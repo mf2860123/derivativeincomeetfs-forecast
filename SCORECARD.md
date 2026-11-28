@@ -1,6 +1,6 @@
 # Scorecard
 
-Updated 2026-11-27 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
+Updated 2026-11-28 (New York). Every forecast counted here was sealed by its hash before the payout was announced.
 
 **168** forecasts settled · **147** scored · **21** void (the answer was already public when it was made, so it does not count) · **231** still open · 4 duplicates not counted (the same payout forecast twice, or under a fund's old ticker)
 
